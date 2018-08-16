@@ -1,1 +1,5 @@
-module.exports = {};
+const colors = require('./colors')
+
+module.exports = {
+  colors
+};
