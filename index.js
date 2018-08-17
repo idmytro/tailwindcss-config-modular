@@ -1,5 +1,7 @@
-const colors = require('./colors')
+const colors = require('./_colors')
+const screens = require('./_screens')
 
 module.exports = {
-  colors
+  colors,
+  screens
 };
