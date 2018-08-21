@@ -1,9 +1,8 @@
-const colors = require('./_colors');
-const screens = require('./_screens');
-const fonts = require('./_fonts');
+// https://github.com/tailwindcss/tailwindcss/blob/master/defaultConfig.stub.js
 
 module.exports = {
-  colors,
-  screens,
-  fonts
+  colors: require('./_colors'),
+  screens: require('./_screens'),
+  fonts: require('./_fonts'),
+  textSizes: require('./_textSizes')
 };
