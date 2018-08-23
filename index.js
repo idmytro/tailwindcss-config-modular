@@ -5,5 +5,6 @@ module.exports = {
   screens: require('./_screens'),
   fonts: require('./_fonts'),
   textSizes: require('./_textSizes'),
-  fontWeights: require('./_fontWeights')
+  fontWeights: require('./_fontWeights'),
+  leading: require('./_leading')
 };
