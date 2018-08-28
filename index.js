@@ -11,7 +11,7 @@ module.exports = {
   leading: require('./_leading'),
   // tracking
   textColors: colors,
-  backgroundColors: colors,
+  backgroundColors: colors
   // backgroundSize
   // borderWidths
   // borderColors: global.Object.assign({ default: colors['grey-light'] }, colors),
