@@ -9,7 +9,7 @@ module.exports = {
   textSizes: require('./_textSizes'),
   fontWeights: require('./_fontWeights'),
   leading: require('./_leading'),
-  // tracking
+  tracking: require('./_tracking'),
   textColors: colors,
   backgroundColors: colors
   // backgroundSize
