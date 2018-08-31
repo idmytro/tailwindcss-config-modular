@@ -14,8 +14,8 @@ module.exports = {
   backgroundColors: colors,
   backgroundSize: require('./_backgroundSize'),
   borderWidths: require('./borderWidths'),
-  borderColors: global.Object.assign({ default: colors['grey-light'] }, colors)
-  // borderRadius
+  borderColors: global.Object.assign({ default: colors['grey-light'] }, colors),
+  borderRadius: require('./borderRadius')
   // width
   // height
   // minWidth
