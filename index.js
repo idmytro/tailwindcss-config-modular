@@ -12,7 +12,7 @@ module.exports = {
   tracking: require('./_tracking'),
   textColors: colors,
   backgroundColors: colors,
-  // backgroundSize
+  backgroundSize: require('./_backgroundSize'),
   // borderWidths
   borderColors: global.Object.assign({ default: colors['grey-light'] }, colors)
   // borderRadius
