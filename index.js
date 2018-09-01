@@ -20,7 +20,7 @@ module.exports = {
     default: colors['grey-light']
   }, colors),
   borderRadius: require('./_borderRadius'),
-  // width
+  width: require('./_width'),
   // height
   // minWidth
   // minHeight
