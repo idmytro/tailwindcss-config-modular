@@ -21,7 +21,7 @@ module.exports = {
   }, colors),
   borderRadius: require('./_borderRadius'),
   width: require('./_width'),
-  // height
+  height: require('./_height'),
   // minWidth
   // minHeight
   // maxWidth
