@@ -1,6 +1,7 @@
 // https://github.com/tailwindcss/tailwindcss/blob/master/defaultConfig.stub.js
 
 const colors = require('./_colors');
+const spacing = require('./_spacing');
 
 module.exports = {
   colors,
@@ -25,9 +26,9 @@ module.exports = {
   // minHeight
   // maxWidth
   // maxHeight
-  // padding
-  // margin
-  // negativeMargin
+  padding: spacing,
+  margin: spacing,
+  negativeMargin: spacing,
   shadows: require('./_shadows'),
   zIndex: require('./_zIndex'),
   opacity: require('./_opacity'),
