@@ -24,7 +24,7 @@ module.exports = {
   height: require('./_height'),
   minWidth: require('./_minWidth'),
   minHeight: require('./_minHeight'),
-  // maxWidth
+  maxWidth: require('./_maxWidth'),
   // maxHeight
   padding: spacing,
   margin: spacing,
