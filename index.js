@@ -2,6 +2,7 @@
 
 const colors = require('./_colors');
 const spacing = require('./_spacing');
+const modules = require('./modules');
 
 module.exports = {
   colors,
@@ -33,5 +34,45 @@ module.exports = {
   zIndex: require('./_zIndex'),
   opacity: require('./_opacity'),
   svgFill: require('./_svg').svgFill,
-  svgStroke: require('./_svg').svgStroke
+  svgStroke: require('./_svg').svgStroke,
+
+  modules,
+
+  /*
+  |-----------------------------------------------------------------------------
+  | Plugins                                https://tailwindcss.com/docs/plugins
+  |-----------------------------------------------------------------------------
+  |
+  | Here is where you can register any plugins you'd like to use in your
+  | project. Tailwind's built-in `container` plugin is enabled by default to
+  | give you a Bootstrap-style responsive container component out of the box.
+  |
+  | Be sure to view the complete plugin documentation to learn more about how
+  | the plugin system works.
+  |
+  */
+
+  // plugins: [
+  //   require('./plugins/container')({
+  //   // center: true,
+  //   // padding: '1rem',
+  //   })
+  // ],
+
+  /*
+  |-----------------------------------------------------------------------------
+  | Advanced Options         https://tailwindcss.com/docs/configuration#options
+  |-----------------------------------------------------------------------------
+  |
+  | Here is where you can tweak advanced configuration options. We recommend
+  | leaving these options alone unless you absolutely need to change them.
+  |
+  */
+
+  options: {
+    prefix: '',
+    important: false,
+    separator: ':'
+  }
+
 };
