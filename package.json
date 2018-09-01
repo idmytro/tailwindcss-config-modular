@@ -1,4 +1,7 @@
 {
+  "name": "tailwindcss-config-modular",
+  "version": "0.1.0",
+  "description": "Tailwind CSS configuration helper.",
   "dependencies": {
     "tailwindcss": "0.6.5"
   }
