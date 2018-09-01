@@ -29,7 +29,7 @@ module.exports = {
   // margin
   // negativeMargin
   // shadows
-  // zIndex
+  zIndex: require('./_zIndex'),
   opacity: require('./_opacity'),
   svgFill: require('./_svg').svgFill,
   svgStroke: require('./_svg').svgStroke
