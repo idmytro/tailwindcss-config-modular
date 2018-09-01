@@ -13,9 +13,9 @@ module.exports = {
   textColors: colors,
   backgroundColors: colors,
   backgroundSize: require('./_backgroundSize'),
-  borderWidths: require('./borderWidths'),
+  borderWidths: require('./_borderWidths'),
   borderColors: global.Object.assign({ default: colors['grey-light'] }, colors),
-  borderRadius: require('./borderRadius')
+  borderRadius: require('./_borderRadius'),
   // width
   // height
   // minWidth
@@ -28,6 +28,6 @@ module.exports = {
   // shadows
   // zIndex
   // opacity
-  // svgFill
-  // svgStroke
+  svgFill: require('./_svg').svgFill,
+  svgStroke: require('./_svg').svgStroke
 };
