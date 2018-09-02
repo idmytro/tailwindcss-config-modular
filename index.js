@@ -28,7 +28,7 @@ module.exports = {
   maxWidth: require('./_maxWidth'),
   maxHeight: require('./_maxHeight'),
   padding: spacing,
-  margin: spacing,
+  margin: global.Object.assign({auto: 'auto'}, spacing),
   negativeMargin: spacing,
   shadows: require('./_shadows'),
   zIndex: require('./_zIndex'),
