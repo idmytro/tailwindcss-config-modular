@@ -27,7 +27,7 @@ module.exports = {
   // negativeMargin
   // shadows
   // zIndex
-  // opacity
+  opacity: require('./_opacity'),
   svgFill: require('./_svg').svgFill,
   svgStroke: require('./_svg').svgStroke
 };
