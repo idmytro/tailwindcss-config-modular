@@ -28,7 +28,7 @@ module.exports = {
   // padding
   // margin
   // negativeMargin
-  // shadows
+  shadows: require('./_shadows'),
   zIndex: require('./_zIndex'),
   opacity: require('./_opacity'),
   svgFill: require('./_svg').svgFill,
